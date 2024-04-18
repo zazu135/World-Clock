@@ -9,27 +9,25 @@
     <title>World Clock - Sarah Zalloum</title>
 </head>
 <body>
-    <div class="container">
+   <div class="container">
         <h1>World Clock</h1>
-
         <select id="city">
             <option value="">Select a city..</option>
+            <option value="current">Current Location</option>
             <option value="African/Algeria">Algeria</option>
             <option value="American/Barbados">Barbados</option>
             <option value="Europe/London">London</option>
             <option value="America/New_York">New York</option>
-            <option value="Pacific/Auckland">Auckland</option>
-            
+            <option value="Pacific/Auckland">Auckland</option>     
         </select>
 
         <div id="cities">
+
         <div class="city" id="los-angeles">
             <div>
-
             <h2>Los Angeles 🇺🇸</h2>
             <div class="date"></div>
             </div>
-   
             <div class="time"></div>
           </div>
           <div class="city" id="toronto">
@@ -38,10 +36,25 @@
             <div class="date"></div>
             </div>
             <div class="time"></div>
-          </div>
-        </div>
-    </div>
+            </div>
+            <div class="city" id="palestine">
+                <div>
+                <h2>Palestine 🇵🇸</h2>
+                <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
 
+        <div class="city" id="ethiopia">
+         <div>
+         <h2>Ethiopia 🇪🇹 </h2>
+         <div class="date"></div>
+        </div>
+       <div class="time"></div>
+       </div>
+      </div>
+    </div>
+ </div>
     <footer>This project was coded by Sarah Zalloum and is <a href="#" target="_blank">open sourced on GitHub</a></footer>
     <script src="index.js"></script>
 </body>
